@@ -12,6 +12,9 @@
 	<div class="extra-pagination">
 	    {{ partial "pagination.html" .}}
 	</div>
+  {{ with .Content }}
+    <div class="microblog_category_intro">{{ . }}</div>
+  {{ end }}
   {{ range $paginator.Pages  }}
   {{ .Render "summary"  }}
   {{ end  }}

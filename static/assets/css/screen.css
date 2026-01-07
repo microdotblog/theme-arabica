@@ -210,6 +210,12 @@ dl dd {
     margin-bottom: 1em
 }
 
+.microblog_category_intro {
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
 /*	==========================================================================
 	Blog header
 	========================================================================== */
